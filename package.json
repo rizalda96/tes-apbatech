@@ -1,0 +1,40 @@
+{
+  "name": "tes",
+  "version": "1.0.0",
+  "description": "tes apbatech",
+  "main": "app.js",
+  "scripts": {
+    "dev": "cross-env APP_ENV=development nodemon -L app.js",
+    "prod": "cross-env APP_ENV=production nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Rizaldha Ali Akbar",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jsdoc-swagger": "^1.6.7",
+    "formidable": "^1.2.2",
+    "fs-extra": "^9.0.1",
+    "helmet": "^4.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "moment": "^2.27.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "nodemailer": "^6.4.11",
+    "nodemon": "^2.0.16",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.4.1",
+    "winston": "^3.7.2",
+    "yup": "^0.29.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
